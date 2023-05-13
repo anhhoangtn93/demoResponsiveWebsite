@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="main.js" defer></script>
+    <title>Midas</title>
+</head>
+
+<body>
+    <div class="header container">
+        <header class="header__content">
+            <div class="wrap_tel header_layout">
+                <a href="#" class="header__content-tel "><i class="fa-solid fa-phone"></i><span class="tel">Call:
+                        +0123 456 789</span></a>
+            </div>
+            <div class="header__content-logo header_layout"><a href="#"><img src="./assets/images/logo.png"
+                        alt="site logo"></a></div>
+            <div class="header__content-menu header_layout">
+                <div class="sub_menu">
+                    <div class="sub_menu_item"><a href="#">
+                            <img class="sub_menu_item--user_login_icon" src="./assets/images/user.svg" alt="user">
+                            <span class="user_login">Login</span></a></div>
+                    <div class="sub_menu_item dropdown"><a href="#"><span class="sub_menu_content">USD</span><i
+                                class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <div class="dropdown-content">
+                            <div class="dropdown_item">VND</div>
+                            <div class="dropdown_item">RUB</div>
+                            <div class="dropdown_item">JPY</div>
+                        </div>
+                    </div>
+                    <div class="sub_menu_item dropdown"><a href="#"><span class="sub_menu_content">Eng</span><i
+                                class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <div class="dropdown-content">
+                            <div class="dropdown_item">Vie</div>
+                            <div class="dropdown_item">Chi</div>
+                            <div class="dropdown_item">Rus</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="header__nav">
+            <div class="menu_bar"><i class="fa-solid fa-bars fa-2x"></i></div>
+            <div id="site_nav">
+                <ul class="nav">
+                    <li class="dropdown_hover active">
+                        <a class="menu_content" href="#">
+                            HOME
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </a>
+                        <div class="dropdown-content">
+                            <div class="dropdown_item">Molla</div>
+                            <div class="dropdown_item">Flatsome</div>
+                            <div class="dropdown_item">Avada</div>
+                        </div>
+                    </li>
+                    <li class="dropdown_hover"><a class="menu_content" href="#">SHOP<i class="fa fa-angle-down"
+                                aria-hidden="true"></i></a>
+                        <div class="dropdown-content">
+                            <div class="dropdown_item">Shop 1</div>
+                            <div class="dropdown_item">Shop 2</div>
+                            <div class="dropdown_item">Shop 3</div>
+                        </div>
+                    </li>
+                    <li class="dropdown_hover"><a class="menu_content" href="#">PRODUCT<i class="fa fa-angle-down"
+                                aria-hidden="true"></i></a>
+                        <div class="dropdown-content">
+                            <div class="dropdown_item">Vie</div>
+                            <div class="dropdown_item">RUB</div>
+                            <div class="dropdown_item">JPY</div>
+                        </div>
+                    </li>
+                    <li class="dropdown_hover"><a class="menu_content" href="#">PAGES<i class="fa fa-angle-down"
+                                aria-hidden="true"></i></a>
+                        <div class="dropdown-content">
+                            <div class="dropdown_item">Vie</div>
+                            <div class="dropdown_item">RUB</div>
+                            <div class="dropdown_item">JPY</div>
+                        </div>
+                    </li>
+                    <li class="dropdown_hover"><a class="menu_content" href="#">BLOG</a></li>
+                    <li class="dropdown_hover"><a class="menu_content" href="#">ELEMENTS</a></li>
+                </ul>
+            </div>
+            <div class="header__icons">
+                <div class="wrap_search">
+                    <input type="text" id="search_input" placeholder="Search in...">
+                    <a href="#" class="search_icon_btn">
+                        <span class="header__icons--search search_icon">
+                            <img class="svg_icon" src="./assets/images/search.svg" alt="search">
+                        </span>
+                    </a>
+                </div>
+
+
+                <a href="#">
+                    <span class="header__icons--heart icon"><img class="svg_icon" src="./assets/images/heart.svg"
+                            alt="heart"><span class="circle"><span class="cartCount">0</span></span>
+                    </span>
+                </a>
+                <a href="#">
+                    <span class="header__icons--cart icon"><img class="svg_icon" src="./assets/images/cart.svg"
+                            alt="cart"><span class="circle"><span class="cartCount">0</span></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div class="main_content">
+        <div class="page_banner">
+            <div class="page_banner_layout container">
+                <div class="left_banner">
+                    <a href="#" class="left_banner_image"></a>
+                    <div class="left_banner_content">
+                        <div class="banner_title">TRENDING NOW</div>
+                        <div class="banner_sub_title">The Focus and Accent<br>On Your Spring Wardrobe</div>
+                        <a class="btn banner_btn" href="#">Discover Now <i class="fa fa-long-arrow-right"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="right_banner">
+                    <div class="right_banner_up">
+                        <a href="#" class="right_banner_up_img"></a>
+                        <div class="right_banner_up_content">
+                            <div class="banner_title">CLEARANCE</div>
+                            <div class="banner_sub_title">Clearance It's On<br>Up To 50% Off</div>
+                            <a class="banner_btn" href="#">Shop Now <i class="fa fa-long-arrow-right"
+                                    aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="right_banner_down">
+                        <div class="right_banner_one">
+                            <a href="#" class="right_banner_one_img"></a>
+                            <div class="right_banner_one_content">
+                                <div class="banner_title">YOU MIGHT LOVE</div>
+                                <div class="banner_sub_title">This Week's<br>Most Wanted</div>
+                                <a class="banner_btn" href="#">Shop Now <i class="fa fa-long-arrow-right"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="right_banner_two">
+                            <a href="#" class="right_banner_two_img"></a>
+                            <div class="right_banner_two_content">
+                                <div class="banner_title">THE NEW PRETTY</div>
+                                <div class="banner_sub_title">How To Dress<br>For Spring</div>
+                                <a class="banner_btn" href="#">Discover Now <i class="fa fa-long-arrow-right"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service">
+            <div class="list_service  container">
+                <div class="service_item free_shipping">
+                    <div class="wrap_banner_icon">
+                        <i class="fa-sharp fa-solid fa-rocket fa-2x"></i></i>
+                        <div class="banner_icon_content">
+                            <div class="item_title">Free Shipping</div>
+                            <div class="item_subtitle">Oder $50 or more</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service_item free_returns">
+                    <div class="wrap_banner_icon">
+                        <i class="fa-solid fa-arrow-rotate-left fa-2x"></i></i>
+                        <div class="banner_icon_content">
+                            <div class="item_title">Free Returns</div>
+                            <div class="item_subtitle">Winthin 30 days</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service_item get_sale">
+                    <div class="wrap_banner_icon">
+                        <i class="fa-solid fa-circle-info fa-2x"></i>
+                        <div class="banner_icon_content">
+                            <div class="item_title">Get 20% Off 1 Item</div>
+                            <div class="item_subtitle">When you sign up</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service_item support">
+                    <div class="wrap_banner_icon"><i class="fa-solid fa-life-ring fa-2x"></i></i>
+                        <div class="banner_icon_content">
+                            <div class="item_title">We Support</div>
+                            <div class="item_subtitle">24/7 amazing services</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="shop_container">
+            <div class="category ">
+                <div class="category_title">Currently Popular Items</div>
+                <ul class="category_list">
+                    <li class="category_item active">NEW</li>
+                    <li class="category_item">FEATURED</li>
+                    <li class="category_item">BEST SELLER</li>
+                </ul>
+            </div>
+        </div>
+        <div class="products_container container">
+            <div class="product_list_grid">
+                <div class="grid_item">
+                    <div class="product">
+                        <a href="#" class="wrap_thumb">
+                            <div class="product_thumb">
+                                <div class="product_primary_thumb">
+                                    <img class="product_img_primary" src="./assets/images/p-product1.jpg" alt="product">
+                                </div>
+                                <div class="product_second_thumb">
+                                    <img class="product_img_second" src="./assets/images/s-product1.jpg" alt="product">
+                                </div>
+                                <div class="add_card">
+                                    <img class="svg_icon" src="./assets/images/cart.svg" alt="cart">
+                                    <span>ADD TO CARD</span>
+                                </div>
+                                <div class="cta_btn">
+                                    <div class="wrap_btn">
+                                        <span class="icon heart"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="icon glass"><i class="fa-solid fa-glasses"></i></span>
+                                        <span class="icon shuffle"><i class="fa-solid fa-shuffle"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_info">
+                                <a class="product_category" href="#">CLOTHING</a>
+                                <a class="product_title" href="#">Linen-blend dress</a>
+                                <div class="product_price normal_price" href="#">$60.00</div>
+                                <div class="product_color"><input type="radio" class="yellow" name="product1_color"
+                                        checked><input type="radio" class="light_blue" name="product1_color"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="product sale">
+                        <a href="#" class="wrap_thumb">
+                            <div class="product_thumb">
+                                <div class="product_primary_thumb">
+                                    <img class="product_img_primary" src="./assets/images/p-product2.jpg" alt="product">
+                                </div>
+                                <div class="product_second_thumb">
+                                    <img class="product_img_second" src="./assets/images/s-product2.jpg" alt="product">
+                                </div>
+                                <div class="sale_badge">Sale</div>
+                                <div class="add_card">
+                                    <img class="svg_icon" src="./assets/images/cart.svg" alt="cart">
+                                    <span>ADD TO CARD</span>
+                                </div>
+                                <div class="cta_btn">
+                                    <div class="wrap_btn">
+                                        <span class="icon heart"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="icon glass"><i class="fa-solid fa-glasses"></i></span>
+                                        <span class="icon shuffle"><i class="fa-solid fa-shuffle"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_info">
+                                <a class="product_category" href="#">Shoes</a>
+                                <a class="product_title" href="#">Sandals with lacing</a>
+                                <div class="product_price_sale">
+                                    <span class="now_price">Now $70.00</span><span class="before_sale">Was
+                                        $155.00</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="product">
+                        <a href="#" class="wrap_thumb">
+                            <div class="product_thumb">
+                                <div class="product_primary_thumb">
+                                    <img class="product_img_primary" src="./assets/images/p-product3.jpg" alt="product">
+                                </div>
+                                <div class="product_second_thumb">
+                                    <img class="product_img_second" src="./assets/images/s-product3.jpg" alt="product">
+                                </div>
+                                <div class="add_card">
+                                    <img class="svg_icon" src="./assets/images/cart.svg" alt="cart">
+                                    <span>ADD TO CARD</span>
+                                </div>
+                                <div class="cta_btn">
+                                    <div class="wrap_btn">
+                                        <span class="icon heart"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="icon glass"><i class="fa-solid fa-glasses"></i></span>
+                                        <span class="icon shuffle"><i class="fa-solid fa-shuffle"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_info">
+                                <a class="product_category" href="#">HANDBAGS</a>
+                                <a class="product_title" href="#">Paper straw shopper</a>
+                                <div class="product_price normal_price" href="#">$398.00</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="product">
+                        <a href="#" class="wrap_thumb">
+                            <div class="product_thumb">
+                                <div class="product_primary_thumb">
+                                    <img class="product_img_primary" src="./assets/images/p-product4.jpg" alt="product">
+                                </div>
+                                <div class="product_second_thumb">
+                                    <img class="product_img_second" src="./assets/images/s-product4.jpg" alt="product">
+                                </div>
+                                <div class="add_card">
+                                    <img class="svg_icon" src="./assets/images/cart.svg" alt="cart">
+                                    <span>ADD TO CARD</span>
+                                </div>
+                                <div class="cta_btn">
+                                    <div class="wrap_btn">
+                                        <span class="icon heart"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="icon glass"><i class="fa-solid fa-glasses"></i></span>
+                                        <span class="icon shuffle"><i class="fa-solid fa-shuffle"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_info">
+                                <a class="product_category" href="#">CLOTHING</a>
+                                <a class="product_title" href="#">Dress</a>
+                                <div class="product_price normal_price" href="#">$370.00</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="product">
+                        <a href="#" class="wrap_thumb">
+                            <div class="product_thumb">
+                                <div class="product_primary_thumb">
+                                    <img class="product_img_primary" src="./assets/images/p-product1.jpg" alt="product">
+                                </div>
+                                <div class="product_second_thumb">
+                                    <img class="product_img_second" src="./assets/images/s-product1.jpg" alt="product">
+                                </div>
+                                <div class="add_card">
+                                    <img class="svg_icon" src="./assets/images/cart.svg" alt="cart">
+                                    <span>ADD TO CARD</span>
+                                </div>
+                                <div class="cta_btn">
+                                    <div class="wrap_btn">
+                                        <span class="icon heart"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="icon glass"><i class="fa-solid fa-glasses"></i></span>
+                                        <span class="icon shuffle"><i class="fa-solid fa-shuffle"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_info">
+                                <a class="product_category" href="#">CLOTHING</a>
+                                <a class="product_title" href="#">Linen-blend dress</a>
+                                <div class="product_price normal_price" href="#">$60.00</div>
+                                <div class="product_color"><input type="radio" class="yellow" name="product2_color"
+                                        checked><input type="radio" class="light_blue" name="product2_color"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="product sale">
+                        <a href="#" class="wrap_thumb">
+                            <div class="product_thumb">
+                                <div class="product_primary_thumb">
+                                    <img class="product_img_primary" src="./assets/images/p-product2.jpg" alt="product">
+                                </div>
+                                <div class="product_second_thumb">
+                                    <img class="product_img_second" src="./assets/images/s-product2.jpg" alt="product">
+                                </div>
+                                <div class="sale_badge">Sale</div>
+                                <div class="add_card">
+                                    <img class="svg_icon" src="./assets/images/cart.svg" alt="cart">
+                                    <span>ADD TO CARD</span>
+                                </div>
+                                <div class="cta_btn">
+                                    <div class="wrap_btn">
+                                        <span class="icon heart"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="icon glass"><i class="fa-solid fa-glasses"></i></span>
+                                        <span class="icon shuffle"><i class="fa-solid fa-shuffle"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_info">
+                                <a class="product_category" href="#">Shoes</a>
+                                <a class="product_title" href="#">Sandals with lacing</a>
+                                <div class="product_price_sale">
+                                    <span class="now_price">Now $70.00</span><span class="before_sale">Was
+                                        $155.00</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="product">
+                        <a href="#" class="wrap_thumb">
+                            <div class="product_thumb">
+                                <div class="product_primary_thumb">
+                                    <img class="product_img_primary" src="./assets/images/p-product3.jpg" alt="product">
+                                </div>
+                                <div class="product_second_thumb">
+                                    <img class="product_img_second" src="./assets/images/s-product3.jpg" alt="product">
+                                </div>
+                                <div class="add_card">
+                                    <img class="svg_icon" src="./assets/images/cart.svg" alt="cart">
+                                    <span>ADD TO CARD</span>
+                                </div>
+                                <div class="cta_btn">
+                                    <div class="wrap_btn">
+                                        <span class="icon heart"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="icon glass"><i class="fa-solid fa-glasses"></i></span>
+                                        <span class="icon shuffle"><i class="fa-solid fa-shuffle"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_info">
+                                <a class="product_category" href="#">HANDBAGS</a>
+                                <a class="product_title" href="#">Paper straw shopper</a>
+                                <div class="product_price normal_price" href="#">$398.00</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="product">
+                        <a href="#" class="wrap_thumb">
+                            <div class="product_thumb">
+                                <div class="product_primary_thumb">
+                                    <img class="product_img_primary" src="./assets/images/p-product4.jpg" alt="product">
+                                </div>
+                                <div class="product_second_thumb">
+                                    <img class="product_img_second" src="./assets/images/s-product4.jpg" alt="product">
+                                </div>
+                                <div class="add_card">
+                                    <img class="svg_icon" src="./assets/images/cart.svg" alt="cart">
+                                    <span>ADD TO CARD</span>
+                                </div>
+                                <div class="cta_btn">
+                                    <div class="wrap_btn">
+                                        <span class="icon heart"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="icon glass"><i class="fa-solid fa-glasses"></i></span>
+                                        <span class="icon shuffle"><i class="fa-solid fa-shuffle"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_info">
+                                <a class="product_category" href="#">CLOTHING</a>
+                                <a class="product_title" href="#">Dress</a>
+                                <div class="product_price normal_price" href="#">$370.00</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="register_letter">
+            <div class="letter_wrap_content">
+                <div class="register_letter_title">Sign up for email & get 25% off </div>
+                <div class="register_letter_content">Subcribe to get information about products and coupons</div>
+
+            </div>
+            <div class="register_letter_email">
+                <input type="text" id="input_register_email" placeholder="Enter your Email Address">
+                <div class="subscribe">SUBSCRIBE <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="heading new_posts">
+            <div class="heading_title">New Blog Posts</div>
+            <div class="heading_content">Donec nec justo eget felis facilisis fermentum.</div>
+        </div>
+        <div class="slide_show">
+            <div class="slide_container container">
+                <div class="pre_next_button pre"><i class="fa-solid fa-chevron-left fa-2x"></i></i></div>
+                <div class="wrap_slide_item">
+                    <div class="slide_item">
+                        <div class="slide_thumb post1">
+
+                        </div>
+                        <div class="slide_info">
+                            <a class="slide_date" href="#">Nov 22, 2018, 0 Comments</a>
+                            <a class="slide_title" href="#">Sed adipiscing ornare.</a>
+                            <a class="slide_read_more" href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="slide_item">
+                        <div class="slide_thumb post2">
+
+                        </div>
+                        <div class="slide_info">
+                            <a class="slide_date" href="#">Nov 22, 2018, 0 Comments</a>
+                            <a class="slide_title" href="#">Sed adipiscing ornare.</a>
+                            <a class="slide_read_more" href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="slide_item">
+                        <div class="slide_thumb post3">
+
+                        </div>
+                        <div class="slide_info">
+                            <a class="slide_date" href="#">Nov 22, 2018, 0 Comments</a>
+                            <a class="slide_title" href="#">Sed adipiscing ornare.</a>
+                            <a class="slide_read_more" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pre_next_button next"><i class="fa-solid fa-chevron-right fa-2x"></i></div>
+            </div>
+            <div class="wrap_acticles container">
+                <div class="more_articles">
+                    VIEW MORE ARTICLES <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div class="heading follow_us">
+            <div class="heading_title">Follow us on instagram</div>
+            <div class="heading_content">Donec nec justo eget felis facilisis fermentum.</div>
+        </div>
+        <div class="follow_us">
+            <div class="slide_container slide_follow_us">
+                <div class="slide_item">
+                    <div class="slide_thumb follow_us_1">
+                    </div>
+
+                </div>
+                <div class="slide_item">
+                    <div class="slide_thumb follow_us_2">
+                    </div>
+                </div>
+                <div class="slide_item">
+                    <div class="slide_thumb follow_us_3">
+                    </div>
+                </div>
+                <div class="slide_item">
+                    <div class="slide_thumb follow_us_4">
+                    </div>
+
+                </div>
+                <div class="slide_item">
+                    <div class="slide_thumb follow_us_5">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="wrap_footer">
+            <div class="copyright">Copyright © 2019 Midas Store. All Rights Reserved. <a class="terms" href="#">Terms Of
+                    Use</a> | <a class="policy" href="#">Privacy Policy</a>
+            </div>
+            <div class="social_media">
+                <a class="social_media_item facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a class="social_media_item twitter" href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a class="social_media_item instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a class="social_media_item youtube" href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a class="social_media_item pinterest" href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+        </div>
+        <div id="sideBar" class="sidenav">
+            <span class="closeSideBar">&times;</span>
+            <div class="sideBar_content">
+                <div class="wrap_search">
+                    <input type="text" class="sideBar_search_input" placeholder="Search in...">
+                    <div class="search_icon_btn">
+                        <span class="header__icons--search search_icon">
+                            <img class="svg_icon" src="./assets/images/search.svg" alt="search">
+                        </span>
+                    </div>
+                </div>
+                <div class="sideBar_menu">
+                    <div class="menu_title">MENU</div>
+                    <div class="menu_item">
+                        <div class="item">
+                            <a class="menu_content" href="#">
+                                HOME
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a class="menu_content" href="#">SHOP<i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="item"><a class="menu_content" href="#">PRODUCT<i class="fa fa-angle-down"
+                                    aria-hidden="true"></i></a>
+                        </div>
+                        <div class="item"><a class="menu_content" href="#">PAGES<i class="fa fa-angle-down"
+                                    aria-hidden="true"></i></a>
+                        </div>
+                        <div class="item"><a class="menu_content" href="#">BLOG</a></div>
+                        <div class="item"><a class="menu_content" href="#">ELEMENTS</a></div>
+                        <div class="wrap_tel">
+                            <a href="#" class="header__content-tel "><i class="fa-solid fa-phone"></i><span
+                                    class="tel">Call:
+                                    +0123 456 789</span></a>
+                        </div>
+                        <div class="social_media">
+                            <a class="social_media_item facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="social_media_item twitter" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="social_media_item instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="social_media_item youtube" href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a class="social_media_item pinterest" href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
